@@ -309,23 +309,6 @@ wheels = [
 ]
 
 [[package]]
-name = "pte-scoring-lab"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "av" },
-    { name = "faster-whisper" },
-    { name = "jiwer" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "av", specifier = ">=18.1,<19" },
-    { name = "faster-whisper", specifier = ">=1.2,<2" },
-    { name = "jiwer", specifier = ">=4,<5" },
-]
-
-[[package]]
 name = "pyyaml"
 version = "6.0.3"
 source = { registry = "https://pypi.org/simple" }
@@ -387,6 +370,23 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/12/ce/f4b355f05b17bdb3a56f1c5e9bd864965dbb810f93d1b5d6044ecfcbd42d/rapidfuzz-3.14.6-cp314-cp314t-win32.whl", hash = "sha256:66ece6f5e2586c742fc3e0b8487e06783d27c6c24adcdcfdd7f306afbd8b5737", size = 1977694, upload-time = "2026-08-30T21:44:29.431Z" },
     { url = "https://files.pythonhosted.org/packages/4a/15/d2c20c57b357ec4157e74a197b3f622dbda0b2a82d1fc708ed7b262758f9/rapidfuzz-3.14.6-cp314-cp314t-win_amd64.whl", hash = "sha256:cab4a932cec02d09471e2c9f1434049ef5bfe1f6e646ff10939c222dc610ad60", size = 1827262, upload-time = "2026-08-30T21:44:31.683Z" },
     { url = "https://files.pythonhosted.org/packages/15/e5/c38c19fbc1de82980e05bd3adbe1dc7f3dd0680e38e868646082317572d6/rapidfuzz-3.14.6-cp314-cp314t-win_arm64.whl", hash = "sha256:b056ce19eaea2ea70c6a6fb387a605ca2af8979de5b9d507597e8012820ddb14", size = 1245604, upload-time = "2026-08-30T21:44:34.066Z" },
+]
+
+[[package]]
+name = "speech-test"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "av" },
+    { name = "faster-whisper" },
+    { name = "jiwer" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "av", specifier = ">=18.1,<19" },
+    { name = "faster-whisper", specifier = ">=1.2,<2" },
+    { name = "jiwer", specifier = ">=4,<5" },
 ]
 
 [[package]]

@@ -1,7 +1,7 @@
 [project]
-name = "pte-scoring-lab"
+name = "speech-test"
 version = "0.1.0"
-description = "Local, uncalibrated PTE-style speech-scoring experiment"
+description = "Experimental English Speaking assessment methods for PTE, IELTS and TOEIC"
 requires-python = ">=3.14,<3.15"
 dependencies = [
     "faster-whisper>=1.2,<2",
